@@ -1,3 +1,8 @@
+This repository was a simple React test to see how you can use the **diff-match-patch** library to compare two strings and highlight the differences.
+
+![](diff.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

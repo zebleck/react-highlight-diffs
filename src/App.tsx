@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TextCompare from './Components/TextCompare';
 
 function App() {
+  const leftText = 'Hello world';
+  const rightText = 'Hello react';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundImage: 'linear-gradient(to bottom, #d6eaff 0%, #b7cbe8 35%, #98b1d6 100%)', height: '100vh'  }}>
+      <TextCompare leftText={leftText} rightText={rightText} />
     </div>
   );
-}
+};
 
 export default App;
